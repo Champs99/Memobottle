@@ -15,21 +15,53 @@
 
 /* $2: Estilos tipográficos */
 
+img {max-width: 100%}
+
 body {
-	font-family: sans-serif;
-	line-height: 1.5;
-    background-color: blue;
+background-color:white;
 }
 
-h1 {
-	font-size: 30px;
-	margin-bottom: 15px;
-    color:aliceblue;
+.cabecera{
+    display:flex;
+    margin: 20px;
+    font-family: sans-serif;
+    font-size: 12px;
 }
 
-p {
-	margin-bottom: 15px;
-    color: aliceblue;
+.middle{
+    display: flex;
+    margin-left: 50%;
+}
+
+.middle > * {
+    margin-left: 30px;
+}
+
+.derecha{
+    display: flex;
+    margin-left:auto;
+    font-weight: bold;
+    
+}
+
+.derecha > * {
+    margin-left: 45px;
+}
+
+.lupa{
+    width: 20px;
+}
+
+.carrito{
+    width: 20px;
+
+}
+
+.inicio{
+    background-color: green;
+    background-image: url(../img/A6_IN_BAG_2000x.jpg);
+    background-size: cover;
+    height: 750px; 
 }
 
 /* $3: XXXX */
