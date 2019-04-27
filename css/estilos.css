@@ -57,6 +57,7 @@ font-family: sans-serif;
 
 }
 
+
 .inicio{
     background-color: green;
     background-image: url(../img/A5_LEATHER_2000x.jpg);
@@ -216,6 +217,201 @@ font-family: sans-serif;
     width: 100%;
     position: relative;
     opacity: 0.8;
+}
+
+.footer{
+    padding-top: 30px;
+    background-color:rgb(242, 242, 242);
+    padding-bottom: 70px;
+}
+
+.textofooter{
+    font-size: 15px;
+    display:flex;
+    justify-content: space-around;
+    
+}
+
+h1{
+    color: dimgrey;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.parrafos{
+    margin-top: 20px;
+    color: grey;
+    line-height : 25px;
+    margin-left: 20px;
+}
+
+.abajo{
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-around;
+}
+.minitext{
+    color: dimgrey;
+    font-weight: bold;
+    margin-left: 50px;
+    font-size: 12px;
+}
+
+.footersocial{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.facebook{
+    width: 40px;
+}
+.Instagram{
+    width: 45px;
+}
+
+.iconospay{
+    width: 300px;
+    display: flex;
+    
+}
+
+.espacioproducto{
+    display: flex;
+}
+.descripcion{
+    width: 500px;
+    background-color:rgb(242, 242, 242);
+    margin-left: 30px;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 40px;
+    height: 1580px;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 23px;
+    
+}
+
+.tamanotext1{
+    margin-top: 20px;
+    font-size: 12px;
+    color:dimgrey;
+    width: 400px;
+    line-height: 20px;
+}
+
+.sold{
+    margin-top: 10px;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    max-width: 120px;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tamanotext2{
+    margin-top: 30px;
+    width: 400px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.tamanotext3{
+    margin-top: 40px;
+    font-size: 15px;
+    color:dimgrey;
+    width: 400px;
+    line-height: 20px;
+}
+
+.good{
+    margin-top: 40px;
+    width: 250px;
+}
+
+.tamanotext4{
+    margin-top: 40px;
+    font-size: 15px;
+    color:black;
+    width: 400px;
+    line-height: 20px;
+    font-weight: bold;
+}
+.socialmedia{
+    width: 100px;
+    padding-bottom: 20px;
+}
+
+.producto{
+    width: 100%;
+    margin-top:20px;
+}
+
+.video{
+    margin-top: 80px;
+    width: 100%;
+    height: 560px;;
+    background-color: green;
+    background-image: url(../img/%22VIDEO%22.png);
+    background-position: center;
+    background-size: cover;
+}
+.tittlestory{
+    text-align: center;
+    padding-top: 70px;
+    font-size: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.australia1{
+    display: flex;
+    margin-top: 70px;
+}
+
+.textaustralia{
+    width: 40%;
+    margin-top: 300px;
+    margin-left: 60px;
+    font-size: 15px;
+    line-height: 28px;
+    
+}
+.arrugada{
+    margin-left: 120px;
+    width: 60%;
+}
+.australia2{
+    display: flex;
+}
+.bolso{
+     width: 49%;
+}
+.australia3{
+        display: flex;
+}
+.ninos{
+    margin-top: 80px;
+}
+.textstory{
+    margin-top: 80px;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 15px;
+    line-height: 28px;        
+}
+.textstorylast{
+    margin-top: 80px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 80px;
+    font-size: 15px;
+    line-height: 28px;        
 }
 
 /* $3: XXXX */
