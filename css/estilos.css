@@ -18,15 +18,25 @@
 img {max-width: 100%}
 
 body {
-background-color:white;
-font-family: sans-serif;
+    background-color:white;
+    font-family: sans-serif;
 }
 
+.logo{
+    position: absolute;
+    
+}
+
+A:link {
+    text-decoration: none;
+    color:black;
+}
 .cabecera{
     display:flex;
     margin: 20px;
     font-size: 12px;
 }
+
 
 .middle{
     display: flex;
@@ -56,7 +66,6 @@ font-family: sans-serif;
     width: 20px;
 
 }
-
 
 .inicio{
     background-color: green;
@@ -138,6 +147,10 @@ font-family: sans-serif;
     display:flex;
     margin-top: 50px;
 
+}
+
+.columna{
+    display:flex;
 }
 
 .fila img{
@@ -275,17 +288,18 @@ h1{
     
 }
 
+/*PRODUCTO*/
+
 .espacioproducto{
     display: flex;
 }
 .descripcion{
-    width: 500px;
+    width: 70%;
     background-color:rgb(242, 242, 242);
     margin-left: 30px;
     padding-top: 40px;
     padding-left: 30px;
     padding-right: 40px;
-    height: 1580px;
 }
 
 h2{
@@ -298,7 +312,7 @@ h2{
     margin-top: 20px;
     font-size: 12px;
     color:dimgrey;
-    width: 400px;
+    width: 100%;
     line-height: 20px;
 }
 
@@ -316,7 +330,7 @@ h2{
 
 .tamanotext2{
     margin-top: 30px;
-    width: 400px;
+    width: 100%;
     font-size: 20px;
     line-height: 30px;
 }
@@ -325,7 +339,7 @@ h2{
     margin-top: 40px;
     font-size: 15px;
     color:dimgrey;
-    width: 400px;
+    width: 100%;
     line-height: 20px;
 }
 
@@ -338,7 +352,7 @@ h2{
     margin-top: 40px;
     font-size: 15px;
     color:black;
-    width: 400px;
+    width: 100%;
     line-height: 20px;
     font-weight: bold;
 }
@@ -351,6 +365,8 @@ h2{
     width: 100%;
     margin-top:20px;
 }
+
+/*STORY*/
 
 .video{
     margin-top: 80px;
@@ -367,6 +383,7 @@ h2{
     font-size: 20px;
     margin-left: 150px;
     margin-right: 150px;
+    line-height: 25px;
 }
 
 .australia1{
@@ -376,7 +393,7 @@ h2{
 
 .textaustralia{
     width: 40%;
-    margin-top: 300px;
+    margin-top: 20%;
     margin-left: 60px;
     font-size: 15px;
     line-height: 28px;
@@ -413,5 +430,371 @@ h2{
     font-size: 15px;
     line-height: 28px;        
 }
+
+/*-RESPONSIVE SMALL-*/
+
+@media (max-width: 400px){
+
+.logo{
+    position: absolute;
+    margin-left: 30%;
+}
+
+.middle{
+    display: none;
+}
+
+.shop{
+    display: none;
+    }
+    
+.lupa{
+    display: none;
+}
+
+.carrito{
+    width: 25px;
+
+}
+
+.inicio{
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color:white;
+    background-position: top;
+    height: 500px;
+}
+
+.capa{
+    display: none;
+}
+
+.intro{
+    left: 15%;
+    right: 15%;
+    top: 55%;
+    color: black;
+
+}
+
+.now{
+    border: 2px solid black;
+}
+    
+
+.fila{
+    display:flex;
+    margin-top: 50px;
+
+}
+
+.columna{
+    display:block;
+}
+
+/*ARREGLAR ESTA PARTE*/
+
+.certified{
+    background-color: white;
+    background-image: url(../img/img6.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 200px; 
+}
+
+.footer{
+    padding-top: 1px;
+}
+
+.textofooter{
+    display:block;
+    
+}
+
+h1{
+    margin-top: 60px;
+}
+
+.abajo{
+    display: block;
+
+}
+.minitext{
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+}
+
+.iconospay{
+    padding-top: 20px;
+    margin-left: 50px;
+    margin-right: 0px;
+    
+}
+
+/*PRODUCT*/
+
+.espacioproducto{
+    display: block;
+    order: -1;
+}
+.descripcion{
+    width:90%;
+    margin-left: 20px;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+    
+.producto{
+    width: 100%;
+    margin-top:20px;
+}
+
+/*STORY*/
+
+.video{
+    background-color: white;
+    background-image: url(../img/%22VIDEO%22.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 170px; 
+}
+.tittlestory{
+    font-size: 15px;
+    line-height: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.australia1{
+    display: block;
+}
+
+.textaustralia {
+    width: 80%;
+    margin-top: 20%;
+    margin-left: 40px;
+    font-size: 12px;
+    line-height: 20px;
+    
+}
+.arrugada{
+    margin-left: 0px;
+    width: 100%;
+    order: -1;
+}
+.australia2{
+    display: block;
+}
+.bolso{
+    width: 100%;
+}
+.australia3{
+    display: block;
+}
+.ninos{
+    margin-top: 80px;
+}
+.textstory{
+    margin-top: 80px;
+    margin-left: 40px;
+    margin-right: 20px;
+    font-size: 12px;
+    line-height: 20px;        
+}
+.textstorylast{
+    margin-top: 80px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 12px;
+    line-height: 20px;        
+}
+    
+}
+
+/*-RESPONSIVE TABLET-*/
+
+@media (min-width:401px) and (max-width:720px){
+
+.logo{
+    position: absolute;
+    margin-left: 40%;
+}
+
+.middle{
+    display: none;
+}
+
+.shop{
+    display: none;
+    }
+    
+.lupa{
+    display: none;
+}
+
+.carrito{
+    width: 25px;
+
+}
+
+.inicio{
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color:white;
+    background-position: top;
+    height: 650px;
+}
+
+.capa{
+    display: none;
+}
+
+.intro{
+    left: 15%;
+    right: 15%;
+    top: 70%;
+    color: black;
+
+}
+
+.now{
+    border: 2px solid black;
+}
+    
+
+.fila{
+    display:flex;
+    margin-top: 50px;
+
+}
+
+.columna{
+    display:block;
+}
+
+/*ARREGLAR ESTA PARTE*/
+
+.certified{
+    background-color: white;
+    background-image: url(../img/img6.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 338px; 
+}
+
+.footer{
+    padding-top: 1px;
+}
+
+.textofooter{
+    display:flex;
+    
+}
+
+h1{
+    margin-top: 60px;
+}
+
+.abajo{
+    display: flex;
+
+}
+
+/*PRODUCT*/
+
+.espacioproducto{
+    display: block;
+    order: -1;
+}
+.descripcion{
+    width:90%;
+    margin-left: 35px;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+    
+.producto{
+    width: 100%;
+    margin-top:20px;
+}
+
+/*STORY*/
+
+.video{
+    background-color: white;
+    background-image: url(../img/%22VIDEO%22.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 300px; 
+}
+.tittlestory{
+    font-size: 15px;
+    line-height: 20px;
+    margin-left: 170px;
+    margin-right: 170px;
+}
+
+.australia1{
+    display: block;
+}
+
+.textaustralia {
+    width: 80%;
+    margin-top: 10%;
+    margin-left: 40px;
+    font-size: 12px;
+    line-height: 20px;
+    
+}
+.arrugada{
+    margin-left: 0px;
+    width: 100%;
+    order: -1;
+}
+.australia2{
+    display: block;
+}
+.bolso{
+    width: 100%;
+}
+.australia3{
+    display: block;
+}
+.ninos{
+    margin-top: 80px;
+}
+.textstory{
+    margin-top: 80px;
+    margin-left: 40px;
+    margin-right: 20px;
+    font-size: 12px;
+    line-height: 20px;        
+}
+.textstorylast{
+    margin-top: 80px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 12px;
+    line-height: 20px;        
+}
+    
+}
+
+
+
+
 
 /* $3: XXXX */
